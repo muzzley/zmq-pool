@@ -10,7 +10,7 @@ Establish a pool of ZMQ connections.
 
 ### Example
 
-```
+```javascript
 var zmq = require('zmq');
 var ZmqPool = require('./lib/ZmqPool');
 var uri = 'tcp://127.0.0.1:12345';
