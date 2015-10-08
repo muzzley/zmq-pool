@@ -12,7 +12,7 @@ Establish a pool of ZMQ connections.
 
 ```javascript
 var zmq = require('zmq');
-var ZmqPool = require('./lib/ZmqPool');
+var ZmqPool = require('zmq-pool');
 var uri = 'tcp://127.0.0.1:12345';
 
 var socket = zmq.socket('rep');
