@@ -4,8 +4,12 @@
   "description": "Build a connection pool on top of ZMQ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "semistandard --verbose | snazzy"
   },
+  "pre-commit" : [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muzzley/zmq-pool.git"
@@ -26,5 +30,15 @@
   "bugs": {
     "url": "https://github.com/muzzley/zmq-pool/issues"
   },
-  "homepage": "https://github.com/muzzley/zmq-pool#readme"
+  "homepage": "https://github.com/muzzley/zmq-pool#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "uuid": "^2.0.1",
+    "zmq": "^2.13.0"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.1.1",
+    "semistandard": "^7.0.2",
+    "snazzy": "^2.0.1"
+  }
 }
