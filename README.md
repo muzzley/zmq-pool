@@ -4,8 +4,6 @@
 [![Dependency Status](https://david-dm.org/muzzley/zmq-pool.svg)](https://david-dm.org/muzzley/zmq-pool)
 [![devDependency Status](https://david-dm.org/muzzley/zmq-pool/dev-status.svg)](https://david-dm.org/muzzley/zmq-pool#info=devDependencies)
 
-## Warning - work in progress, the API may drastically change in the upcoming weeks
-
 Establish a pool of ZMQ connections.
 
 ### Example
